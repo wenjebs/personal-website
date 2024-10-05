@@ -76,7 +76,7 @@ export const projects = [
     des: "A gacha-based mobile app raising awareness and support for a turtle museum, featuring customizable sprites and in-game currency.",
     img: "/p1.png",
     iconLists: ["/flutter.svg", "/dart.svg", "/firebase.svg", "/riverpod.png"],
-    link: "/ui.earth.com",
+    link: "/ui.turtogotchi.com",
   },
   {
     id: 2,
@@ -84,24 +84,24 @@ export const projects = [
     des: "A gamified running application with support for Android and iOS, utilizing Riverpod for state management",
     img: "/p2.png",
     iconLists: ["/flutter.svg", "/dart.svg", "/firebase.svg", "/riverpod.png", "/gemini.svg"],
-    link: "/ui.yoom.com",
+    link: "/ui.goorunners.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Photobooth",
+    des: "A desktop app allowing users to take photobooth style photos with their cameras, built with Flutter and Firebase.",
+    img: "/p3.png",
+    iconLists: ["/flutter.svg", "/dart.svg", "/firebase.svg", "/riverpod.png", "/gemini.svg"],
+    link: "/ui.photobooth.com",
   },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
+  // {
+  //   id: 4,
+  //   title: "Animated Apple Iphone 3D Website",
+  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+  //   img: "/p4.svg",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //   link: "/ui.apple.com",
+  // },
 ];
 
 export const testimonials = [
@@ -173,32 +173,32 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Fullstack Mobile App Developer",
+    desc: "Developing an app for SPCA to raise awareness about animal abuse.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Flutter Desktop Application Developer",
+    desc: "Designed and developed desktop photobooth app.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  // {
+  //   id: 3,
+  //   title: "",
+  //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp3.svg",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Lead Frontend Developer",
+  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp4.svg",
+  // },
 ];
 
 export const socialMedia = [

@@ -1,3 +1,5 @@
+import { prefix } from "./prefix";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -13,7 +15,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: `${prefix}/b1.svg`,
     spareImg: "",
   },
   {
@@ -43,8 +45,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: `${prefix}/grid.svg`,
+    spareImg: `${prefix}/b4.svg`,
   },
 
   {
@@ -54,8 +56,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: `${prefix}/b5.svg`,
+    spareImg: `${prefix}/grid.svg`,
   },
   {
     id: 6,
@@ -75,7 +77,7 @@ export const projects = [
     title: "Turtogotchi",
     des: "A gacha-based mobile app raising awareness and support for a turtle museum, featuring customizable sprites and in-game currency.",
     img: "/p1.png",
-    iconLists: ["/flutter.svg", "/dart.svg", "/firebase.svg", "/riverpod.png"],
+    iconLists: [`${prefix}/flutter.svg`, `${prefix}/dart.svg`, `${prefix}/firebase.svg`, `${prefix}/riverpod.png`],
     link: "/ui.earth.com",
   },
   {
@@ -83,23 +85,23 @@ export const projects = [
     title: "Goorunners",
     des: "A gamified running application with support for Android and iOS, utilizing Riverpod for state management",
     img: "/p2.png",
-    iconLists: ["/flutter.svg", "/dart.svg", "/firebase.svg", "/riverpod.png", "/gemini.svg"],
+    iconLists: [`${prefix}/flutter.svg`, `${prefix}/dart.svg`, `${prefix}/firebase.svg`, `${prefix}/riverpod.png`, `${prefix}/gemini.svg`],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    img: `${prefix}/p3.svg`,
+    iconLists: [],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    img: `${prefix}/p4.svg`,
+    iconLists: [],
     link: "/ui.apple.com",
   },
 ];
@@ -141,31 +143,31 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
+    img: `${prefix}/cloud.svg`,
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
+    img: `${prefix}/app.svg`,
     nameImg: "/appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
+    img: `${prefix}/host.svg`,
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
+    img: `${prefix}/s.svg`,
     nameImg: "/streamName.svg",
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
+    img: `${prefix}/dock.svg`,
     nameImg: "/dockerName.svg",
   },
 ];
@@ -176,28 +178,28 @@ export const workExperience = [
     title: "Frontend Engineer Intern",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: `${prefix}/exp1.svg`,
   },
   {
     id: 2,
     title: "Mobile App Dev - JSM Tech",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: `${prefix}/exp2.svg`,
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: `${prefix}/exp3.svg`,
   },
   {
     id: 4,
     title: "Lead Frontend Developer",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: `${prefix}/exp4.svg`,
   },
 ];
 

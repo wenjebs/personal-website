@@ -5,6 +5,10 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  images: {
+    loader: "akamai",
+    path: "https://wenjebs.github.io/personal-website/",
+  },
 };
 
 export default nextConfig;
